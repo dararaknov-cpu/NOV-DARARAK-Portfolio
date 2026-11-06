@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>My Poster Design Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo"><span>NOV.</span> DARARAK</a>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <p class="subtitle">GRAPHIC DESIGN PORTFOLIO</p>
+    <h1>CREATIVE<br><span>POSTER DESIGN</span></h1>
+    <p>
+      Welcome to my creative world.
+      I design eye catching posters that communicate
+      ideas, tell stories, and inspire people.
+    </p>
+    <a href="#portfolio" class="btn">Explore My Work</a>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <p class="subtitle">MY CREATIVE WORK</p>
+    <h2>Selected <span>Projects</span></h2>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">
+        All
+      </button>
+      <button class="filter-btn" data-filter="branding">
+        Branding 
+      </button>
+      <button class="filter-btn" data-filter="social">
+        Social Media
+      </button>
+      <button class="filter-btn" data-filter="event">
+        Events
+      </button>
+    </div>
+
+    <div class="gallery">
+
+      <div class="poster-card" data-category="branding">
+        <img src="Glossy Tint Balm Beauty Campaign.jpg"
+             alt="Beauty poster">
+        <div class="poster-info">
+          <h3>Beauty Campaign</h3>
+          <p>Branding Design</p>
+        </div>
+      </div>
+
+      <div class="poster-card" data-category="social">
+        <img src="Mega tint balm.jpg"
+        
+             alt="Social media poster">
+        <div class="poster-info">
+          <h3>Social Media Promotion</h3>
+          <p>Social Media Design</p>
+        </div>
+      </div>
+
+      <div class="poster-card" data-category="event">
+        <img src="Cusion combo 03.jpg"
+             alt="Event poster">
+        <div class="poster-info">
+          <h3>Creative Event</h3>
+          <p>Event Design</p>
+        </div>
+      </div>
+
+      <div class="poster-card" data-category="branding">
+        <img src="SunScreen!!.jpg"
+             
+             alt="Product poster">
+        <div class="poster-info">
+          <h3>Product Advertising</h3>
+          <p>Branding Design</p>
+        </div>
+      </div>
+      <div class="poster-card" data-category="branding">
+        <img src="5 masks color ,.jpg"
+             
+             alt="Product poster">
+        <div class="poster-info">
+          <h3>Product Advertising</h3>
+          <p>Branding Design</p>
+        </div>
+      </div>
+      <div class="poster-card" data-category="branding">
+        <img src="Blue5.jpg"
+             
+             alt="Product poster">
+        <div class="poster-info">
+          <h3>Product Advertising</h3>
+          <p>Branding Design</p>
+        </div>
+      </div>
+      <div class="poster-card" data-category="branding">
+        <img src="Green2.jpg"
+             
+             alt="Product poster">
+        <div class="poster-info">
+          <h3>Product Advertising</h3>
+          <p>Branding Design</p>
+        </div>
+      </div>
+      <div class="poster-card" data-category="branding">
+        <img
+             src="SunscreenAlert.jpg"
+             alt="Product poster">
+        <div class="poster-info">
+          <h3>Product Advertising</h3>
+          <p>Branding Design</p>
+        </div>
+      </div>
+
+      <div class="poster-card" data-category="social">
+        <img src="Mega lip&Cheek.jpg"
+             alt="Promotion poster">
+        <div class="poster-info">
+          <h3>Special Promotion</h3>
+          <p>Social Media Design</p>
+        </div>
+      </div>
+
+      <div class="poster-card" data-category="event">
+        <img src="•ព្រះ​រាជ​ពិធី​ច្រត់​ព្រះ​នង្គ័ល_Royal_Ploughing_Ceremony.jpg"
+             alt="Festival poster">
+        <div class="poster-info">
+          <h3>Festival Campaign</h3>
+          <p>Event Design</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <p class="subtitle">GET TO KNOW ME</p>
+    <h2>About <span>Me</span></h2>
+    <p>
+      Hello! I'm NOV DARARAK a passionate graphic designer
+      specializing in creative poster designs,
+      promotional graphics, and social media content.
+
+      I love combining colors, typography, and
+      visual elements to create designs that
+      attract attention and deliver meaningful messages.
+    </p>
+
+    <div class="skills">
+      <span>Poster Design</span>
+      <span>Graphic Design</span>
+      <span>Branding</span>
+      <span>Social Media Design</span>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <p class="subtitle">LET'S CONNECT</p>
+    <h2>Let's Work <span>Together</span></h2>
+    <p>
+      Have a project in mind?
+      Let's create something amazing together.
+    </p>
+    <a href="dararak.nov@gmail.com" class="btn">
+      Contact Me
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 My Design Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Poster Preview -->
+  <div class="lightbox" id="lightbox">
+    <button class="close-btn" id="closeLightbox"
+            aria-label="Close preview">&times;</button>
+    <img id="lightboxImage" src="" alt="Poster preview">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
